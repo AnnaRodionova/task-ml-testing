@@ -105,7 +105,7 @@ regr.fit(X_train, y_train)
 y_train_pred = regr.predict(X_train)
 y_test_pred = regr.predict(X_test)
 ```
-Для расчета метрик R^2, RMSE используйте соответствующие методы:
+Для расчета метрик R^2, RMSE используйте соответствующие функции:
 ```shell script
 from ml_testing.regression_tests import test_r2_score, test_rmse
 test_r2_score(y_train, y_train_pred, y_test, y_test_pred)
