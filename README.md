@@ -111,7 +111,7 @@ from ml_testing.regression_tests import test_r2_score, test_rmse
 test_r2_score(y_train, y_train_pred, y_test, y_test_pred)
 test_rmse(y_train, y_train_pred, y_test, y_test_pred)
 ```
-Реузльтат:
+Результат:
 ```shell script
 Train Coefficient of determination = 0.510, Holdout Coefficient of determination = 0.510
 Train RMSE = 54.307, Holdout RMSE = 53.083
