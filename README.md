@@ -70,7 +70,7 @@ classifier.fit(X_train, y_train)
 y_train_pred = classifier.decision_function(X_train)
 y_test_pred = classifier.decision_function(X_test)
 ```
-Для расчета метрики ROC AUC используйте обучающую и отложенную выборки, а также результаты раюоты вашей модели.
+Для расчета метрики ROC AUC используйте обучающую и отложенную выборки, а также результаты работы вашей модели.
 ```shell script
 from ml_testing.classification_tests import test_f1_score, test_roc_auc_score
 test_roc_auc_score(y_train, y_train_pred, y_test, y_test_pred)
