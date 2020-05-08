@@ -77,7 +77,7 @@ test_roc_auc_score(y_train, y_train_pred, y_test, y_test_pred)
 ```
 Результат:
 ```shell script
-Train ROC AUC = 1.000, holdout ROC AUC = 0.768
+Train ROC AUC = 1.000, Holdout ROC AUC = 0.768
 ```
 Расчет F1 score:
 ```shell script
@@ -87,7 +87,7 @@ test_f1_score(y_train, y_train_pred, y_test, y_test_pred, average='micro')
 ```
 Результат:
 ```shell script
-Train f1 = 1.000, holdout f1 = 0.396
+Train f1 = 1.000, Holdout f1 = 0.396
 ```
 
 ## Regression Tests 
